@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{5F281159-D9CE-43DF-ADE8-48E0564C0E14}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Controllers/TabArrivals/VCTabArrivalsPart1.cs">
+    <Files>
+      <File FileName="iOS/Entitlements.plist" />
+      <File FileName="iOS/ViewController.designer.cs" Line="14" Column="34" />
+      <File FileName="iOS/ViewController.cs" Line="14" Column="4" />
+      <File FileName="iOS/TPKeyboard.cs" Line="1" Column="1" />
+      <File FileName="iOS/Model/FileMakerModels/AccommodationFileMakerModel.cs" Line="7" Column="6" />
+      <File FileName="iOS/Model/FileMakerModels/ActivitiesFileMakerModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Model/FileMakerModels/AgentFileMakerModel.cs" Line="5" Column="13" />
+      <File FileName="iOS/Model/FileMakerModels/AircraftFileMakerModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Model/FileMakerModels/CommissionsFileMakerModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Model/FileMakerModels/FlightInfoFileMakerModel.cs" Line="30" Column="39" />
+      <File FileName="iOS/Model/FileMakerModels/PassengersFileMakerModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Model/FileMakerModels/PilotsFileMakerModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Model/FileMakerModels/ReservationsFileMakerModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Model/FileMakerModels/VendorsFileMakerModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Controllers/TabAvailability/ViewCtrlTabArrivals.cs" Line="12" Column="4" />
+      <File FileName="iOS/Controllers/TabArrivals/VCTabArrivalsPart2.cs" Line="11" Column="4" />
+      <File FileName="iOS/Controllers/TabArrivals/VCTabArrivalsPart1.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NightPhones.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A3E34B26-040B-44B3-91DD-4EC5DEF2768F" />
+</Properties>

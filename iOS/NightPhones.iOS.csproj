@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{5F281159-D9CE-43DF-ADE8-48E0564C0E14}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NightPhones.iOS</RootNamespace>
+    <AssemblyName>NightPhones.iOS</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="TPKeyboardAvoiding">
+      <HintPath>..\Components\TPKeyboardAvoiding-1.2.11.0\lib\ios-unified\TPKeyboardAvoiding.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NightPhones\NightPhones.csproj">
+      <Project>{F5099490-EBB0-45B0-8D3C-3B3C40889A26}</Project>
+      <Name>NightPhones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Controllers\TabAvailability\" />
+    <Folder Include="Controllers\TabArrivals\" />
+    <Folder Include="Controllers\TabReservations\" />
+    <Folder Include="Controllers\TabFlights\" />
+    <Folder Include="Controllers\TabSettings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPKeyboard.cs" />
+    <Compile Include="TPKeyboard.designer.cs">
+      <DependentUpon>TPKeyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TabAvailability\ViewCtrlTabArrivals.cs" />
+    <Compile Include="Controllers\TabAvailability\ViewCtrlTabArrivals.designer.cs">
+      <DependentUpon>ViewCtrlTabArrivals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TabArrivals\ViewCtrlTabAvailability.cs" />
+    <Compile Include="Controllers\TabArrivals\ViewCtrlTabAvailability.designer.cs">
+      <DependentUpon>ViewCtrlTabAvailability.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TabFlights\ViewCtrlTabFlights.cs" />
+    <Compile Include="Controllers\TabFlights\ViewCtrlTabFlights.designer.cs">
+      <DependentUpon>ViewCtrlTabFlights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TabSettings\ViewCtrlTabSettings.cs" />
+    <Compile Include="Controllers\TabSettings\ViewCtrlTabSettings.designer.cs">
+      <DependentUpon>ViewCtrlTabSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TabReservations\ViewCtrlTabReservation.cs" />
+    <Compile Include="Controllers\TabReservations\ViewCtrlTabReservation.designer.cs">
+      <DependentUpon>ViewCtrlTabReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FileMakerModels\AccommodationFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\ActivitiesFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\AgentFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\AircraftFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\CommissionsFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\FlightInfoFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\PassengersFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\PilotsFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\ReservationsFileMakerModel.cs" />
+    <Compile Include="Model\FileMakerModels\VendorsFileMakerModel.cs" />
+    <Compile Include="Controllers\TabArrivals\VCTabArrivalsPart1.cs" />
+    <Compile Include="Controllers\TabArrivals\VCTabArrivalsPart1.designer.cs">
+      <DependentUpon>VCTabArrivalsPart1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TabArrivals\VCTabArrivalsPart2.cs" />
+    <Compile Include="Controllers\TabArrivals\VCTabArrivalsPart2.designer.cs">
+      <DependentUpon>VCTabArrivalsPart2.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="TPKeyboardAvoiding">
+      <Version>1.2.11.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

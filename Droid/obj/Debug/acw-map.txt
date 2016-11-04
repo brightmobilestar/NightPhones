@@ -1,0 +1,4 @@
+NightPhones.Droid.MainActivity, NightPhones.Droid;md5e24f65432b7603db95d2cf04ae5ab094.MainActivity
+NightPhones.Droid.MainActivity, NightPhones.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e24f65432b7603db95d2cf04ae5ab094.MainActivity
+NightPhones.Droid.MainActivity;md5e24f65432b7603db95d2cf04ae5ab094.MainActivity
+nightphones.droid.MainActivity;md5e24f65432b7603db95d2cf04ae5ab094.MainActivity

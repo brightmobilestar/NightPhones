@@ -1,0 +1,12 @@
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/bin/iPhoneSimulator/Debug/NightPhones.iOS.exe.mdb
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/bin/iPhoneSimulator/Debug/NightPhones.iOS.exe
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/obj/iPhoneSimulator/Debug/NightPhones.iOS.exe
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/obj/iPhoneSimulator/Debug/NightPhones.iOS.exe.mdb
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/bin/iPhoneSimulator/Debug/NightPhones.dll
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/bin/iPhoneSimulator/Debug/NightPhones.dll.mdb
+/Users/HK/Ryan/NightPhones/NightPhones/iOS/bin/iPhoneSimulator/Debug/TPKeyboardAvoiding.dll
